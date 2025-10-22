@@ -1,0 +1,9 @@
+{
+  "name": "plugin-factory",
+  "version": "1.0.0",
+  "description": "Comprehensive toolkit for creating Claude Code plugins with skills, commands, agents, hooks, and MCP servers",
+  "author": {
+    "name": "Plugin Factory Contributors"
+  },
+  "keywords": ["plugin", "development", "skills", "tools", "creation"]
+}
