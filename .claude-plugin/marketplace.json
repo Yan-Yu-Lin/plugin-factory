@@ -1,0 +1,24 @@
+{
+  "name": "plugin-factory",
+  "owner": {
+    "name": "Yan-Yu-Lin",
+    "email": "contact@github.com"
+  },
+  "metadata": {
+    "description": "Marketplace for plugin-factory - comprehensive toolkit for creating Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "plugin-factory",
+      "source": "./",
+      "description": "Comprehensive toolkit for creating Claude Code plugins with skills, commands, agents, hooks, and MCP servers",
+      "version": "1.0.0",
+      "author": {
+        "name": "Plugin Factory Contributors"
+      },
+      "keywords": ["plugin", "development", "skills", "tools", "creation"],
+      "strict": false
+    }
+  ]
+}
