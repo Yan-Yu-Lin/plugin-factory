@@ -32,6 +32,16 @@ Plugins follow a three-level loading system:
 2. **Component metadata** - Loaded when relevant (command descriptions, skill descriptions)
 3. **Full component content** - Loaded when invoked (SKILL.md body, command body, agent instructions)
 
+### ⚠️ Critical: Marketplaces Are Required
+
+**Plugins CANNOT be installed directly.** Claude Code requires all plugins to be distributed through marketplaces, even for local development.
+
+The installation flow is always:
+1. **Add marketplace**: `/plugin marketplace add ./path` or `owner/repo`
+2. **Install from marketplace**: `/plugin install plugin-name@marketplace-name`
+
+This means every plugin repository must include `.claude-plugin/marketplace.json` that lists the plugin, even if the repo contains only a single plugin. This is not optional—it's an architectural requirement of Claude Code's plugin system.
+
 ## Plugin Creation Workflow
 
 Follow this structured process to create effective plugins:
