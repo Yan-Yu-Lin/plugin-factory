@@ -1,3 +1,5 @@
+
+
 # Plugin Factory
 
 > Comprehensive toolkit for creating Claude Code plugins and skills
@@ -50,8 +52,8 @@ The specialized skill for creating Agent Skills (which can be standalone or part
 
 ```bash
 # In Claude Code
-/plugin marketplace add anthropics/skills
-/plugin install plugin-factory@anthropic-agent-skills
+/plugin marketplace add Yan-Yu-Lin/plugin-factory
+/plugin install plugin-factory@plugin-factory
 ```
 
 ### From Local Directory (Development)
